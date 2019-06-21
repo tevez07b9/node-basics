@@ -1,0 +1,19 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "A simple Node Express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
+  },
+  "author": "Talmeez Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  }
+}
